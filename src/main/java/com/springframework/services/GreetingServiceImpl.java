@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class GreetingServiceImpl implements GreetingService
 {
-    public static final String HELLO_TEST = "Hello!!!";
+    public static final String HELLO_TEST = "Hello Mate!!!";
 
     @Override
     public String sayGreeting()
