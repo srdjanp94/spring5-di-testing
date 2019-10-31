@@ -3,3 +3,11 @@ com:
     username: JMS Username
     password: somepass
     url: SomeURL
+
+---
+spring:
+  profiles: de
+
+com:
+  jms:
+    username: JMS Username $$$$$$ on GERMAN
